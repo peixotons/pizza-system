@@ -1,0 +1,25 @@
+body {
+    font-family: 'Numans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover, a:focus {
+    color: black;
+    text-decoration: underline;
+}
+
+.oval-image {
+    width: 150px;
+    object-fit: contain;
+    height: 100px;
+    transition: transform 0.3s ease;
+}
+.oval-image:hover {
+    transform: scale(3);
+}
+
+
